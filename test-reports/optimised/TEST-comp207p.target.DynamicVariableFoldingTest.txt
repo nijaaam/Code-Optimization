@@ -1,0 +1,178 @@
+Testsuite: comp207p.target.DynamicVariableFoldingTest
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.032 sec
+
+Testcase: testMethodThree took 0.002 sec
+	Caused an ERROR
+Bad local variable type
+Exception Details:
+  Location:
+    comp207p/target/DynamicVariableFolding.methodFour()I @16: iload_3
+  Reason:
+    Type top (current frame, locals[3]) is not assignable to integer
+  Current Frame:
+    bci: @16
+    flags: { }
+    locals: { 'comp207p/target/DynamicVariableFolding' }
+    stack: { integer, integer, integer, integer }
+  Bytecode:
+    0x0000000: 1205 1234 b200 0314 0038 b600 0903 1001
+    0x0000010: 1d60 3e07 0406 06ac                    
+
+java.lang.VerifyError: Bad local variable type
+Exception Details:
+  Location:
+    comp207p/target/DynamicVariableFolding.methodFour()I @16: iload_3
+  Reason:
+    Type top (current frame, locals[3]) is not assignable to integer
+  Current Frame:
+    bci: @16
+    flags: { }
+    locals: { 'comp207p/target/DynamicVariableFolding' }
+    stack: { integer, integer, integer, integer }
+  Bytecode:
+    0x0000000: 1205 1234 b200 0314 0038 b600 0903 1001
+    0x0000010: 1d60 3e07 0406 06ac                    
+
+	at comp207p.target.DynamicVariableFoldingTest.<init>(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+
+Testcase: testMethodFour took 0 sec
+	Caused an ERROR
+Bad local variable type
+Exception Details:
+  Location:
+    comp207p/target/DynamicVariableFolding.methodFour()I @16: iload_3
+  Reason:
+    Type top (current frame, locals[3]) is not assignable to integer
+  Current Frame:
+    bci: @16
+    flags: { }
+    locals: { 'comp207p/target/DynamicVariableFolding' }
+    stack: { integer, integer, integer, integer }
+  Bytecode:
+    0x0000000: 1205 1234 b200 0314 0038 b600 0903 1001
+    0x0000010: 1d60 3e07 0406 06ac                    
+
+java.lang.VerifyError: Bad local variable type
+Exception Details:
+  Location:
+    comp207p/target/DynamicVariableFolding.methodFour()I @16: iload_3
+  Reason:
+    Type top (current frame, locals[3]) is not assignable to integer
+  Current Frame:
+    bci: @16
+    flags: { }
+    locals: { 'comp207p/target/DynamicVariableFolding' }
+    stack: { integer, integer, integer, integer }
+  Bytecode:
+    0x0000000: 1205 1234 b200 0314 0038 b600 0903 1001
+    0x0000010: 1d60 3e07 0406 06ac                    
+
+	at comp207p.target.DynamicVariableFoldingTest.<init>(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+
+Testcase: testMethodOne took 0 sec
+	Caused an ERROR
+Bad local variable type
+Exception Details:
+  Location:
+    comp207p/target/DynamicVariableFolding.methodFour()I @16: iload_3
+  Reason:
+    Type top (current frame, locals[3]) is not assignable to integer
+  Current Frame:
+    bci: @16
+    flags: { }
+    locals: { 'comp207p/target/DynamicVariableFolding' }
+    stack: { integer, integer, integer, integer }
+  Bytecode:
+    0x0000000: 1205 1234 b200 0314 0038 b600 0903 1001
+    0x0000010: 1d60 3e07 0406 06ac                    
+
+java.lang.VerifyError: Bad local variable type
+Exception Details:
+  Location:
+    comp207p/target/DynamicVariableFolding.methodFour()I @16: iload_3
+  Reason:
+    Type top (current frame, locals[3]) is not assignable to integer
+  Current Frame:
+    bci: @16
+    flags: { }
+    locals: { 'comp207p/target/DynamicVariableFolding' }
+    stack: { integer, integer, integer, integer }
+  Bytecode:
+    0x0000000: 1205 1234 b200 0314 0038 b600 0903 1001
+    0x0000010: 1d60 3e07 0406 06ac                    
+
+	at comp207p.target.DynamicVariableFoldingTest.<init>(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+
+Testcase: testMethodTwoReturn took 0 sec
+	Caused an ERROR
+Bad local variable type
+Exception Details:
+  Location:
+    comp207p/target/DynamicVariableFolding.methodFour()I @16: iload_3
+  Reason:
+    Type top (current frame, locals[3]) is not assignable to integer
+  Current Frame:
+    bci: @16
+    flags: { }
+    locals: { 'comp207p/target/DynamicVariableFolding' }
+    stack: { integer, integer, integer, integer }
+  Bytecode:
+    0x0000000: 1205 1234 b200 0314 0038 b600 0903 1001
+    0x0000010: 1d60 3e07 0406 06ac                    
+
+java.lang.VerifyError: Bad local variable type
+Exception Details:
+  Location:
+    comp207p/target/DynamicVariableFolding.methodFour()I @16: iload_3
+  Reason:
+    Type top (current frame, locals[3]) is not assignable to integer
+  Current Frame:
+    bci: @16
+    flags: { }
+    locals: { 'comp207p/target/DynamicVariableFolding' }
+    stack: { integer, integer, integer, integer }
+  Bytecode:
+    0x0000000: 1205 1234 b200 0314 0038 b600 0903 1001
+    0x0000010: 1d60 3e07 0406 06ac                    
+
+	at comp207p.target.DynamicVariableFoldingTest.<init>(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+
+Testcase: testMethodTwoOut took 0 sec
+	Caused an ERROR
+Bad local variable type
+Exception Details:
+  Location:
+    comp207p/target/DynamicVariableFolding.methodFour()I @16: iload_3
+  Reason:
+    Type top (current frame, locals[3]) is not assignable to integer
+  Current Frame:
+    bci: @16
+    flags: { }
+    locals: { 'comp207p/target/DynamicVariableFolding' }
+    stack: { integer, integer, integer, integer }
+  Bytecode:
+    0x0000000: 1205 1234 b200 0314 0038 b600 0903 1001
+    0x0000010: 1d60 3e07 0406 06ac                    
+
+java.lang.VerifyError: Bad local variable type
+Exception Details:
+  Location:
+    comp207p/target/DynamicVariableFolding.methodFour()I @16: iload_3
+  Reason:
+    Type top (current frame, locals[3]) is not assignable to integer
+  Current Frame:
+    bci: @16
+    flags: { }
+    locals: { 'comp207p/target/DynamicVariableFolding' }
+    stack: { integer, integer, integer, integer }
+  Bytecode:
+    0x0000000: 1205 1234 b200 0314 0038 b600 0903 1001
+    0x0000010: 1d60 3e07 0406 06ac                    
+
+	at comp207p.target.DynamicVariableFoldingTest.<init>(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+
